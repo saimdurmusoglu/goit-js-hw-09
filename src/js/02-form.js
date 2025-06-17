@@ -39,7 +39,6 @@ function onInputChange(event) {
   if (!['email', 'message'].includes(name)) return;
 
   if (submitted) {
-    // Submit sonrası ilk input değişiminde eski veriyi temizle
     localStorage.removeItem(STORAGE_KEY);
     submitted = false;
   }
@@ -71,7 +70,7 @@ function onFormSubmit(event) {
 
   localStorage.removeItem(STORAGE_KEY);
   form.reset();
-  submitted = true; // Submit edildi bilgisi
+  submitted = true;
 }
 
 form.addEventListener('input', onInputChange);

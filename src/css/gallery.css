@@ -13,6 +13,11 @@
   flex-basis: calc(25% - 12px);
 }
 
+.gallery-link {
+  display: block;
+  text-decoration: none;
+}
+
 .gallery-image {
   width: 100%;
   display: block;
