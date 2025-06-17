@@ -1,0 +1,95 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 408px;
+  min-height: 296px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px;
+  background-color: var(--white-color);
+  border-radius: 8px;
+}
+
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  min-width: 360px;
+  min-height: 72px;
+  color: var(--text-color);
+  text-align: left;
+}
+
+.feedback-form input {
+  width: 360px;
+  height: 40px;
+  padding: 8px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.feedback-form input:hover {
+  border-color: var(--black-color);
+}
+
+.feedback-form input:active,
+.feedback-form input:focus {
+  border-color: var(--border-color);
+}
+
+.feedback-form textarea {
+  width: 360px;
+  padding: 8px 16px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  resize: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-regular);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.feedback-form textarea:hover {
+  border-color: var(--black-color);
+}
+
+.feedback-form textarea:active,
+.feedback-form textarea:focus {
+  border-color: var(--border-color);
+}
+
+.feedback-form button {
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  text-decoration: none;
+  background-color: var(--button-color);
+  color: var(--white-color);
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-medium);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.feedback-form button:hover {
+  background-color: var(--button-color-hover);
+}
